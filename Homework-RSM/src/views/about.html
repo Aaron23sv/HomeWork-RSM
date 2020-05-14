@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= title %>
+    </title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <%- include ('partials/navigation.html') %>
+
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-12 offset-md-12">
+                    <div class="card animated fadeIn">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>About</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <div>
+                                    <h1>NASA – Homework!</h1>
+                                    <P class="h4">Project Goal</P>
+                                    <p>Create a simple web page application that allows user to look at aerial photography of any location on Earth. Data has to come from an API (https://api.nasa.gov/api.html#earth ), it is free to use though you should
+                                        obtain a key (https://api.nasa.gov/index.html#apply-for-an-api-key ).</p>
+                                    <P class="h4">Minimum Requirements</P>
+                                    <p>The page should have one text input field and one button to fetch results. At a minimum user should be able to enter Latitude/Longitude coordinates for a point on Earth and render nine tiles, with the point sitting
+                                        at the center. Use any delimiter you would like to split the coordinate, as they should all be entered to the text input field.</p>
+                                    <p>Application must run locally using Node.js and include readme.md with instructions on how to build and run, assuming a clean environment with Node.js already installed.</p>
+                                    <P class="h4">Optional</P>
+                                    <p>User interface beyond required elements is open to interpretation. Use any libraries, frameworks, templating tools, but keep in mind that it should be easy to build and run. Including additional features is not prohibited,
+                                        feel free to make it interesting and visually appealing.</p>
+                                    <p class="h4">Time limit</p>
+                                    <p>Do not spend more than 4 hours on this assignment. It is a coding challenge, not a commercial application.</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include ('partials/footer.html') %>
+</body>
+
+</html>

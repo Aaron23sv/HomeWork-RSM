@@ -1,0 +1,46 @@
+body {
+    background: #7474BF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    width: 60%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box {
+    width: 250px;
+    border: 1px;
+}
+
+.box.large {
+    height: 300px;
+}
+
+.box.xlarge {
+    width: 14400px;
+    height: 1440px;
+    text-align: center;
+}
+
+.box.small {
+    height: 100px;
+}
